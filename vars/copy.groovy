@@ -1,3 +1,3 @@
-def now(String src, String dest){
- Files.copy(${src}, ${dest})
+def call(String name){
+ echo "Hello ${name}"
 }
