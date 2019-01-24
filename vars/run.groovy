@@ -6,5 +6,5 @@ def call(String name, String name2){
  echo "Hello ${name}"
   echo "Hello ${name2}"
 
- Files.copy("C:/Users/abisht2/Desktop/source", "C:/Users/abisht2/Desktop/destination")
+ Files.copy("/home/xavient/git/pipeline/data", "/home/xavient/git/pipeline/data2")
 }
