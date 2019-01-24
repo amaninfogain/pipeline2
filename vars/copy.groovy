@@ -1,4 +1,4 @@
-def call(String name, String surname){
+def call(String name){
  echo "Hello ${name}"
- echo "Hello ${surname}"
+ 
 }
