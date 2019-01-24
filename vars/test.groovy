@@ -5,7 +5,7 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
 
-public class DirectoryCopy {
+public class test {
     public static void main(String[] args) {
  
         String source = "C:/Users/abisht2/Desktop/source";
