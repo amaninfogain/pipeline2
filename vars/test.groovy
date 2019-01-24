@@ -5,6 +5,7 @@ import java.io.IOException;
 
 def func()
        {
+        echo "Hello"
         String source = "C:/Users/abisht2/Desktop/source";
         File srcDir = new File(source);  
         String destination = "C:/Users/abisht2/Desktop/destination";
