@@ -10,7 +10,7 @@ def call(String name, String name2){
 //println "ls.execute().text"
 //Files.copy("${name}", "${name2}")
  //FileUtils.copyDirectory("/home/xavient/git/pipeline/data", "/home/xavient/git/pipeline/data2");
- def p = 'cp -rf /home/xavient/git/pipeline/data4 /home/xavient/git/pipeline/data2'.execute()
+ def p = 'cp -rf ${name} ${name2}'.execute()
 p.waitFor()
 println p.text
 }
