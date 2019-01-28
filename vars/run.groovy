@@ -7,8 +7,11 @@ import java.io.*
 def call(String name, String name2){
  echo "Hello ${name}"
   echo "Hello ${name2}"
-println "ls.execute().text"
+//println "ls.execute().text"
 //Files.copy("${name}", "${name2}")
  //FileUtils.copyDirectory("/home/xavient/git/pipeline/data", "/home/xavient/git/pipeline/data2");
+ def p = 'ls'.execute()
+p.waitFor()
+println p.text
 }
 
